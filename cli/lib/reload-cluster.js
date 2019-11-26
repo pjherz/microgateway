@@ -1,5 +1,7 @@
 'use strict'
 
+// modified reload cluster
+
 var cluster = require('cluster');
 var EventEmitter = require('events').EventEmitter;
 var cpuCount = require('os').cpus().length;
